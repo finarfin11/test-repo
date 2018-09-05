@@ -16,6 +16,7 @@ namespace Sword
             Console.WriteLine(topRow);
 
             int sharps = n - 2;
+
             for (int row = 1; row <= n / 2; row++, sharps--)
             {
                 Console.WriteLine(new string('#', sharps) + '.' + new string(' ', width - 2 * sharps - 2) + '.' + new string('#', sharps));
